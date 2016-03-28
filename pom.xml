@@ -46,6 +46,13 @@
             <artifactId>javax.websocket-api</artifactId>
             <scope>provided</scope>
         </dependency>
+    <dependency>
+    <groupId>localRep</groupId>
+    <artifactId>poi</artifactId>
+    <version>0.0.1</version>
+    <scope>system</scope>
+    <systemPath>${project.basedir}src/main/webapp/WEB-INF/lib/poi-3.13-20150929.jar</systemPath>
+</dependency>
     </dependencies>
 
     <build>
